@@ -52,13 +52,12 @@ int main(){
     
     string s;
     getline(cin,s);
-    stringstrem ss(s);
     
     vector<int> arr;
-    if(s.front=='[' && s.back==']'){
+    if(s.front()=='[' && s.back()==']'){
         s=s.substr(1,s.length()-2);
     }
-    
+    stringstream ss(s);
     string num;
     
     while(getline(ss,num,' ')){
@@ -80,13 +79,12 @@ int main(){
     
     string s;
     getline(cin,s);
-    stringstrem ss(s);
     
     vector<int> arr;
-    if(s.front=='[' && s.back==']'){
+    if(s.front()=='[' && s.back()==']'){
         s=s.substr(1,s.length()-2);
     }
-    
+    stringstream ss(s);
     string num;
     
     while(getline(ss,num,',')){
