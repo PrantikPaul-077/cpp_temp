@@ -45,7 +45,7 @@ int main(){
 
 //space-separated array
 
-#include <bits.stdc++.h>
+#include <bits/stdc++.h>
 using namespace std;
 
 int main(){
@@ -73,7 +73,7 @@ int main(){
 
 // coma separated
 
-#include <bits.stdc++.h>
+#include <bits/stdc++.h>
 using namespace std;
 
 int main(){
