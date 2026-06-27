@@ -1,4 +1,3 @@
-
 //array input
 
 #include<bits/stdc++.h>
@@ -70,7 +69,7 @@ int main(){
     return 0;
 }
 
-// coma separated value
+//comma-separated value
 
 #include <bits/stdc++.h>
 using namespace std;
@@ -79,6 +78,7 @@ int main(){
     
     string s;
     getline(cin,s);
+//cin.ignore();
     
     vector<int> arr;
     if(s.front()=='[' && s.back()==']'){
